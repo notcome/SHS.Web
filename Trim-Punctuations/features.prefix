@@ -1,0 +1,35 @@
+languagesystem DFLT dflt;
+languagesystem hani dflt;
+languagesystem hani ZHS;
+languagesystem kana dflt;
+languagesystem latn dflt;
+languagesystem grek dflt;
+languagesystem cyrl dflt;
+
+table head {
+  FontRevision 1.001;
+} head;
+
+table name {
+  nameid 0 "Copyright \00A9 2014 Adobe Systems Incorporated. All Rights Reserved.";
+  nameid 0 1 "Copyright \A9 2014 Adobe Systems Incorporated. All Rights Reserved.";
+  nameid 7 "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.";
+  nameid 7 1 "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.";
+  nameid 8 "Adobe Systems Incorporated";
+  nameid 8 1 "Adobe Systems Incorporated";
+  nameid 9 "Ryoko NISHIZUKA \897f\585a\6dbc\5b50 (kana & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Wenlong ZHANG \5F20\6587\9F99 (bopomofo); Sandoll Communication \C0B0\B3CC\CEE4\BBA4\B2C8\CF00\C774\C158, Soo-young JANG \C7A5\C218\C601 & Joo-yeon KANG \AC15\C8FC\C5F0 (hangul elements, letters & syllables)";
+  nameid 9 1 "Ryoko NISHIZUKA (kana & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Wenlong ZHANG (bopomofo); Sandoll Communication, Soo-young JANG & Joo-yeon KANG (hangul elements, letters & syllables)";
+  nameid 10 "Dr. Ken Lunde (project architect, glyph set definition & overall production); Masataka HATTORI \670D\90E8\6B63\8CB4 (production & ideograph elements)";
+  nameid 10 1 "Dr. Ken Lunde (project architect, glyph set definition & overall production); Masataka HATTORI (production & ideograph elements)";
+  nameid 11 "http://www.adobe.com/type/";
+  nameid 11 1 "http://www.adobe.com/type/";
+  nameid 13 "Copyright \00A9 2014 Adobe Systems Incorporated\000D\000ALicensed under the Apache License, Version 2.0 (the \0022License\0022); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.html\000D\000AUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \0022AS IS\0022 BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\000D\000A";
+  nameid 13 1 "Copyright \A9 2014 Adobe Systems Incorporated\0D\0ALicensed under the Apache License, Version 2.0 (the \22License\22); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.html\0D\0AUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \22AS IS\22 BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\0D\0A";
+  nameid 14 "http://www.apache.org/licenses/LICENSE-2.0.html";
+  nameid 14 1 "http://www.apache.org/licenses/LICENSE-2.0.html";
+} name;
+
+table vhea {
+  VertTypoLineGap 500;
+} vhea;
+

@@ -1,0 +1,10 @@
+InputFontPath	./cidfont.ps
+FeaturePath	./features
+FontMenuDBPath	../../MenuName/CN
+ReleaseMode	true
+DoSubroutinization	false
+MacCmapScriptID	25
+H_UniEncodingCMAPPath	../../../../../Downloads/source-han-sans-master/UniSourceHanSansCN-UTF32-H
+LicenseCode	ADOBE
+OutputFontPath	./SourceHanSansCN-Regular.otf
+kSetfsSelectionBitsOn	[7, 8]

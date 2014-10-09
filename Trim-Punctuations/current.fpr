@@ -1,0 +1,10 @@
+InputFontPath	./subset.ps
+FeaturePath	./features
+FontMenuDBPath	../FontsData/MenuName/CN
+ReleaseMode	true
+DoSubroutinization	false
+MacCmapScriptID	25
+H_UniEncodingCMAPPath	./cmap.result
+LicenseCode	ADOBE
+OutputFontPath	./SourceHanSansCN-Light.otf
+kSetfsSelectionBitsOn	[7, 8]

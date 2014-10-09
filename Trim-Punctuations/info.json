@@ -1,0 +1,36 @@
+{
+  "punctuations": {
+    "pairs": "「」『』《》（）［］｛｝〔〕【】",
+    "stops": "。？！，、；：",
+    "idsp": "\u3000",
+    "others": [
+      "\u2014", "\u2e3a", "\u2e3b",
+      "\u2015", 63028, 63029,
+      "…"
+    ]
+  },
+  "rules": [
+  ["open"   , "open"],
+  ["closing", "closing"],
+  ["idsp"   , "open"],
+  ["closing", "idsp"]
+  ],
+
+  "features": [{
+    "name": "std_ccmp",
+    "type": "lookup",
+    "content": [
+      "substitute \\715 \\715 \\715 by \\1347;",
+      "substitute \\715 \\715 by \\1346;",
+      "substitute \\716 \\716 \\716 by \\63029;",
+      "substitute \\716 \\716 by \\63028;"
+    ]
+  },
+  {
+    "name": "ccmp",
+    "type": "feature",
+    "content": [
+      "lookup std_ccmp;"
+    ]
+  }]
+}
