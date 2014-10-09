@@ -12,6 +12,7 @@
   "rules": [
   ["open"   , "open"],
   ["closing", "closing"],
+  ["closing", "open"],
   ["idsp"   , "open"],
   ["closing", "idsp"]
   ],
